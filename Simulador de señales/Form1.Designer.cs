@@ -41,6 +41,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pctManchesterD = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pctSeñalOriginal)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctNRZ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctNRZI)).BeginInit();
@@ -169,12 +170,22 @@
             this.pctManchesterD.TabIndex = 11;
             this.pctManchesterD.TabStop = false;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(333, 21);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(203, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Ingrese cada bit separado por un espacio";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(812, 558);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pctManchesterD);
             this.Controls.Add(this.label5);
@@ -216,6 +227,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pctManchesterD;
+        private System.Windows.Forms.Label label7;
     }
 }
 
