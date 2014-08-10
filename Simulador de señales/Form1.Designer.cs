@@ -80,7 +80,7 @@
             this.pctSeñalOriginal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctSeñalOriginal.Location = new System.Drawing.Point(184, 86);
             this.pctSeñalOriginal.Name = "pctSeñalOriginal";
-            this.pctSeñalOriginal.Size = new System.Drawing.Size(500, 60);
+            this.pctSeñalOriginal.Size = new System.Drawing.Size(500, 70);
             this.pctSeñalOriginal.TabIndex = 3;
             this.pctSeñalOriginal.TabStop = false;
             // 
@@ -90,7 +90,7 @@
             this.pctNRZ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctNRZ.Location = new System.Drawing.Point(184, 178);
             this.pctNRZ.Name = "pctNRZ";
-            this.pctNRZ.Size = new System.Drawing.Size(500, 60);
+            this.pctNRZ.Size = new System.Drawing.Size(500, 70);
             this.pctNRZ.TabIndex = 4;
             this.pctNRZ.TabStop = false;
             // 
@@ -100,7 +100,7 @@
             this.pctNRZI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctNRZI.Location = new System.Drawing.Point(184, 270);
             this.pctNRZI.Name = "pctNRZI";
-            this.pctNRZI.Size = new System.Drawing.Size(500, 60);
+            this.pctNRZI.Size = new System.Drawing.Size(500, 70);
             this.pctNRZI.TabIndex = 5;
             this.pctNRZI.TabStop = false;
             // 
@@ -110,7 +110,7 @@
             this.pctManchester.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctManchester.Location = new System.Drawing.Point(184, 362);
             this.pctManchester.Name = "pctManchester";
-            this.pctManchester.Size = new System.Drawing.Size(500, 60);
+            this.pctManchester.Size = new System.Drawing.Size(500, 70);
             this.pctManchester.TabIndex = 6;
             this.pctManchester.TabStop = false;
             // 
@@ -165,7 +165,7 @@
             this.pctManchesterD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctManchesterD.Location = new System.Drawing.Point(184, 456);
             this.pctManchesterD.Name = "pctManchesterD";
-            this.pctManchesterD.Size = new System.Drawing.Size(500, 60);
+            this.pctManchesterD.Size = new System.Drawing.Size(500, 70);
             this.pctManchesterD.TabIndex = 11;
             this.pctManchesterD.TabStop = false;
             // 

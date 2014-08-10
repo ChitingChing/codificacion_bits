@@ -27,31 +27,35 @@ namespace Simulador_de_señales
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string[] bits = new string[textBox1.TextLength];
+            bits = textBox1.Text.Split(' ');
             foreach (Control c in this.Controls)
             {               
                     if (c is PictureBox)
                     {
                         c.Refresh();
                         dibujar = c.CreateGraphics();
-                        dibujarFondo(c.Width);
+                        dibujarFondo(c.Width,bits);
                     }                
-            }            
-            string[] bits = new string[textBox1.TextLength];
-            bits =textBox1.Text.Split(' ');
+            }         
             dibujarSeñalOriginal(bits);
             dibujarNRZ(bits);
             dibujarNRZI(bits);
             dibujarM(bits);
             dibujarMD(bits);
         }
-        private void dibujarFondo(int ancho) {
+        private void dibujarFondo(int ancho,string[] Bits) {
             Font myfuente = new Font("Arial", 10);
             Pen myPen = new Pen(Color.Black, 1);
             myPen.DashStyle = DashStyle.Dash;
             dibujar.DrawLine(Pens.Black, 0, 30, 600, 30);
             for (int i = 0; i <= (ancho / 20); i++)
             {
-                dibujar.DrawLine(myPen, 10 + i * 20, 0, 10 + i * 20,60);
+                dibujar.DrawLine(myPen, 10 + i * 20, 0, 10 + i * 20,60);                
+            }
+            for (int i = 0; i <= Bits.GetUpperBound(0); i++)
+            {
+                dibujar.DrawString(Bits[i], myfuente, Brushes.Black, 15+i*20, 50);
             }
             dibujar.DrawString("+", myfuente, Brushes.Black, 0, 0);
             dibujar.DrawString("-", myfuente, Brushes.Black, 0, 40);
