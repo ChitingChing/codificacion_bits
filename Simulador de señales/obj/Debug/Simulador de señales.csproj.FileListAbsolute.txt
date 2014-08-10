@@ -1,0 +1,9 @@
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\bin\Debug\Simulador de señales.exe.config
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\bin\Debug\Simulador de señales.exe
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\bin\Debug\Simulador de señales.pdb
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\obj\Debug\Simulador de señales.csprojResolveAssemblyReference.cache
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\obj\Debug\Simulador_de_señales.Form1.resources
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\obj\Debug\Simulador_de_señales.Properties.Resources.resources
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\obj\Debug\Simulador de señales.csproj.GenerateResource.Cache
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\obj\Debug\Simulador de señales.exe
+c:\users\chiting\documents\visual studio 2012\Projects\Simulador de señales\Simulador de señales\obj\Debug\Simulador de señales.pdb
