@@ -77,6 +77,7 @@
             // pctSeñalOriginal
             // 
             this.pctSeñalOriginal.BackColor = System.Drawing.Color.White;
+            this.pctSeñalOriginal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctSeñalOriginal.Location = new System.Drawing.Point(184, 86);
             this.pctSeñalOriginal.Name = "pctSeñalOriginal";
             this.pctSeñalOriginal.Size = new System.Drawing.Size(500, 60);
@@ -86,6 +87,7 @@
             // pctNRZ
             // 
             this.pctNRZ.BackColor = System.Drawing.Color.White;
+            this.pctNRZ.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctNRZ.Location = new System.Drawing.Point(184, 178);
             this.pctNRZ.Name = "pctNRZ";
             this.pctNRZ.Size = new System.Drawing.Size(500, 60);
@@ -95,6 +97,7 @@
             // pctNRZI
             // 
             this.pctNRZI.BackColor = System.Drawing.Color.White;
+            this.pctNRZI.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctNRZI.Location = new System.Drawing.Point(184, 270);
             this.pctNRZI.Name = "pctNRZI";
             this.pctNRZI.Size = new System.Drawing.Size(500, 60);
@@ -104,6 +107,7 @@
             // pctManchester
             // 
             this.pctManchester.BackColor = System.Drawing.Color.White;
+            this.pctManchester.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctManchester.Location = new System.Drawing.Point(184, 362);
             this.pctManchester.Name = "pctManchester";
             this.pctManchester.Size = new System.Drawing.Size(500, 60);
@@ -158,6 +162,7 @@
             // pctManchesterD
             // 
             this.pctManchesterD.BackColor = System.Drawing.Color.White;
+            this.pctManchesterD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pctManchesterD.Location = new System.Drawing.Point(184, 456);
             this.pctManchesterD.Name = "pctManchesterD";
             this.pctManchesterD.Size = new System.Drawing.Size(500, 60);
